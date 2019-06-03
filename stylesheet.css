@@ -1,3 +1,43 @@
 h1 {
+    font-size: 30px
+}
 
+.content {
+    width: 60%;
+    float: left;
+    background-color: blue;
+}
+
+.clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    font-family: sans-serif;
+    
+}
+.moreContent {
+    width: 35%;
+    float: right;
+    background-color: brown;
+    margin-right: 2.5%;
+    
+}
+
+.adTest {
+    width: 100%;
+}
+.authorInfo {
+    background-color: yellow;
+}
+.more-content-p {
+    
+}
+.authorPic {
+    width: 50%;
+    float:left
+}
+.authorBlurb {
+    margin-top: 40px;
 }
