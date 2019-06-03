@@ -32,12 +32,13 @@ body {
 
 }
 .more-content-p {
-    margin-left: 50px
+    text-align: center;
 }
 .authorPic {
-    width: 50%;
+    width: 20%;
     float:left
 }
 .authorBlurb {
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: 25%
 }
