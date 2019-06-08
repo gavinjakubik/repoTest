@@ -19,7 +19,7 @@
     </head>
     <body>
     
-       <div class="content"> 
+       <div class="content" ng-controller="mainController"> 
            
         <h1>Welcome to my Webpage!</h1>
         
@@ -40,13 +40,13 @@
         </div>
     
         <div class="clear-fix"></div>
-        <div class="authorInfo">
+        <div class="authorInfo" ng-controller="mainController">
             
             <p>Author Info</p>
 
             <img src="TonyStark.jpg" class="authorPic">
         
-            <p class="authorBlurb">Tony Stark is an american journalist who enjoys spending time in hollywood in his off time</p>
+            <p class="authorBlurb"> {{ name }} is an american journalist who enjoys spending time in hollywood in his off time</p>
             
         </div>
         <div ng-controller='mainController'>

@@ -1,5 +1,6 @@
+/*global angular*/
 var myApp = angular.module('myApp', []);
 
-myApp.controller('mainController', function() {
-    
-});
+myApp.controller('mainController', ['$scope', function ($scope) {
+    $scope.name = "Tony Stark";
+}]);
